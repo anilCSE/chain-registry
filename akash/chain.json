@@ -4,7 +4,7 @@
     "status": "live",
     "network_type": "mainnet",
     "pretty_name": "Akash",
-    "chain_id": "akashnet-2",
+    "chain_id": "testnet",
     "bech32_prefix": "akash",
     "daemon_name": "akash",
     "node_home": "$HOME/.akash",
@@ -80,26 +80,13 @@
     "apis": {
         "rpc": [
             {
-                "address": "https://rpc.akash.forbole.com:443",
-                "provider": "forbole"
-            },
-            {
-                "address": "http://akash-sentry01.skynetvalidators.com:26657",
-                "provider": "skynet"
-            },
-            {
-                "address": "https://rpc.akash.smartnodes.one:443"
-            },
-            {
-                "address": "http://akash.c29r3.xyz:80/rpc"
+                "address": "http://localhost:26657",
+                "provider": "local"
             }
         ],
         "rest": [
             {
-                "address": "https://akash.c29r3.xyz:443/api"
-            },
-            {
-                "address": "https://api.akash.smartnodes.one"
+                "address": "http://localhost:1317"
             }
         ]
     }
